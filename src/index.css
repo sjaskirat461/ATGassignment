@@ -1,0 +1,73 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.myPortalModalDiv{
+    background-color: white;;
+    z-index: 10;
+    color: red;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    margin: 5rem;
+}
+
+.modal-wrapper{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    /* border: 200px solid black; */
+    z-index: 10000;
+    background-color: transparent;
+}
+.modal-wrapper1{
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 0;
+    /* border: 200px solid black; */
+    z-index: 10000;
+    background-color: transparent;
+}
+.modal-container{
+    position: fixed;
+    /* max-width: 30rem; */
+    /* border: 2px solid black; */
+    width: 750px;
+    /* height: 5px; */
+    flex-shrink: 0;
+    flex-shrink: 0;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    /* max-width: 50%; */
+    z-index: 100000000;
+    background-color: white;
+    
+}
+
+.model-btn{
+    padding: 0.6rem 1.4rem;
+    font-size: 1.4rem;
+    border: none;
+    border-radius: 0.3rem;
+    background-color: white;
+    color: blue;
+    cursor: pointer;
+    transform: scale(0.9);
+}
+
+.model-btn:hover{
+    background-color: white;
+    color: black;
+    border: black;
+    transform: scale(1);
+    transition: all 0.1s;
+}
